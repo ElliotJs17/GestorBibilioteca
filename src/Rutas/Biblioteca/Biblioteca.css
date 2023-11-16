@@ -1,0 +1,329 @@
+.buscador-contenedor {
+    min-height: 100%;
+    background-image: linear-gradient(rgba(47, 30, 56, 0.3), rgba(37, 33, 38, 0.5)),
+        url('./Imagenes/libros.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.buscador-titulo {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.buscador-texto {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    max-width: 770px;
+    opacity: 0.8;
+    margin: 20px 0;
+}
+
+.formulario-buscador {
+    display: flex;
+    max-width: 230px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 50px;
+}
+
+.formulario-buscador input {
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 18px 46px 18px 26px;
+}
+
+.formulario-buscador button {
+    display: inline-block;
+    border-radius: 20px;
+    border: none;
+    background: #8c3737;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 18px 26px;
+    transition: all 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario-buscador button:hover {
+    opacity: 4;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/*contenido de la bilbioteca*/
+
+.contenido-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(200, 225, 251);*/
+    background-color: rgb(211, 211, 211);
+}
+
+.filtros-contenedor {
+    display: flex;
+    margin: 60px 40px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;    
+
+}
+
+.color-contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 100%;
+
+}
+
+.filtro-autor {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.opciones-autor {
+    padding: 0 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.todos-los-libros-contenedor {
+    margin: 60px 0;
+}
+
+.libros-informacion-contenedor {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.libros-informacion {   
+    background-color: #dcdcdc;  
+    padding: 15px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.libros-informacion div {
+    width: 100%;
+    font-weight: bold;
+}
+
+.libros-informacion div p span {
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+}
+
+.portada-libros {
+    border: 5px solid black;
+    width: 250px;
+    height: 320px;
+    margin-bottom: 15px;    
+}
+
+.titulo-obra {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.titulo-autor {
+    text-align: left;
+    font-size: 13px;
+}
+
+.titulo-genero {
+    text-align: left;
+    font-size: 13px;
+}
+
+.titulo-publicacion {
+    text-align: left;
+    font-size: 13px;
+}
+
+.boton-agregar-libro {
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #8c3737;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #8c3737;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-top: 10px;
+}
+
+.boton-agregar-libro {
+    width: 250px;
+}
+
+.carrito-contenedor {
+    display: flex;
+    margin: 60px 40px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.caja-carrito-contenedor {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titulo-carrito {
+    text-align: left;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.libros-reservados-contenedor {
+    display: grid;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.libros-reservados {
+    background-color: #dcdcdc;
+    display: flex;
+    padding: 10px;
+}
+
+.portada-libros-reservado {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.portada-libros-reservado img {
+    width: 200px;
+    height: 280px;
+    border: 3px solid black;
+
+}
+
+.info-libros-reservados {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-libros-reservados span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.portada-titulo-reservado {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.portada-autor-reservado {
+    text-align: left;
+    font-size: 13px;
+}
+
+.portada-genero-reservado {
+    text-align: left;
+    font-size: 13px;
+}
+
+.portada-publicacion-reservado {
+    text-align: left;
+    font-size: 13px;
+}
+
+.portada-id-reservado {
+    text-align: left;
+    font-size: 13px;
+}
+
+.boton-reservar-contenedor {
+    display: grid;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.boton-reservar-contenedor span {
+    opacity: 1;
+    transform: none;
+    font-size: 20px;
+    color: #888;
+}
+
+.boton-reservar-contenedor p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.boton-reservar-contenedor button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #8c3737;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #8c3737;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.mensaje-reservado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: green;
+    background-color: #fff;
+    padding: 5px 20px;
+    height: 25px;
+}
+
+

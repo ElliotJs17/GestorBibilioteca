@@ -1,0 +1,97 @@
+.contenedor-formulario-cuenta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-color: #f8f8f8;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.info-formulario-cuenta {
+    padding: 0 30px;
+}
+
+.info-formulario-cuenta h2 {
+    color: #333;
+    font-size: 3rem;
+}
+
+.info-formulario-cuenta p {
+    color: #555;
+}
+
+.icono {
+    margin: 15px 5px;
+}
+
+.formulario {
+    margin: 30px 0 0 0;
+}
+
+.formulario label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 0 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.formulario label input {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #333;
+}
+
+.formulario label div {
+    margin-right: 10px;
+}
+
+.formulario label i {
+    color: #a7a7a7;
+}
+
+.formulario button {
+    background-color: #8c3737;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.formulario button:hover {
+    background-color: #8c3737;
+}
+
+.mensaje-inicio-sesion {
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #ff0000;
+    padding: 10px;
+    border: 1px solid #e57373;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Resposive form */
+
+@media screen and (max-width:580px) {
+
+    .contenedor-formulario-cuenta {
+        width: 100%;
+        padding: 20px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}

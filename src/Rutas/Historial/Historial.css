@@ -1,0 +1,141 @@
+.contenedor-historial{
+    width: 100%;
+    height: 100%;
+    padding: 20px 80px;
+    background-color: rgb(211, 211, 211);
+}
+
+.contenedor-historial-informacion{
+    background-color: rgb(211, 211, 211);
+    padding: 30px 40px; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+.titulo-historial{
+    padding: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contenido-info-historial{  
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.contenido-historial{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.reserva-titulo{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #333; 
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.reserva-titulo h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fecha-reversa-titulo{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    gap: 10px;
+    font-weight: bold; 
+}
+
+.fecha-reversa-titulo h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.libros-reservados-historial{
+    display: flex;
+    flex-direction: column;
+}
+
+.libro-pedido-fecha-devolucion{
+    padding: 20px;
+}
+
+.libros-reservados-historial h4{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.libros-reservados-historial h4 span{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.portada-obra-reservada{
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.obra-historial-info{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(211, 211, 211);
+    justify-content: center;
+    align-items: center;
+}
+
+.obra-historial-info img{
+    width: 260px;
+    height: 380px;
+    
+}
+
+.obra-historial-info div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;   
+}
+
+.obra-historial-info div h5{
+    font-size: 20px;  
+}
+
+.obra-historial-info div h5 span{
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.estado-devolucion{
+    padding: 20px;
+    font-size: 22px;
+}
+
+.estado-devolucion span{
+    font-size: 22px;
+    color: red;
+}
+
+.estado-devolucion span span{
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}

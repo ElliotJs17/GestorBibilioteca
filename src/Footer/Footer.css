@@ -1,0 +1,92 @@
+.footer {
+    background-color: #333;
+}
+
+.contenedor-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem;
+}
+
+.menu-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 30rem;
+    gap: 3rem;
+    justify-items: center;
+}
+
+.titulo-footer {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.integrantes,
+.email-contacto,
+.celular,
+.barra-navegacion {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #fff;
+}
+
+.integrantes ul,
+.email-contacto ul,
+.celular ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.integrantes ul li,
+.email-contacto ul li,
+.celular ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.integrantes ul li:hover,
+.email-contacto ul li:hover,
+.celular ul li:hover {
+    color: #12bde0;
+}
+
+.barra-navegacion ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.barra-navegacion ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.link-item {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-item:hover {
+    color: #12bde0;
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    border-top: 1px solid #d2b495;
+}
+
+.copyright p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+}

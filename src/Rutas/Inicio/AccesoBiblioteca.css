@@ -1,0 +1,36 @@
+.contenedor-link-biblioteca {
+    background-image: linear-gradient(100deg, #000000, #00000020),
+        url('../../Login/Imagenes/biblioteca.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60rem;
+}
+
+.contenido-link {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 17rem 0;
+}
+
+.contenido-link h2 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.a p {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 5rem;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: #9e4e4e;
+    border-radius: 3rem;
+    font-weight: bold;
+}
+
+.a p::first-letter {
+    text-transform: uppercase;
+}
